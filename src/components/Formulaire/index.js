@@ -42,6 +42,7 @@ const Formulaire = () => {
           label="name"
           type="text"
           name="name"
+          autoComplete="off"
           onChange={formik.handleChange}
           value={formik.values.name}
         />
@@ -52,6 +53,7 @@ const Formulaire = () => {
           label="email"
           type="email"
           name="email"
+          autoComplete="off"
           onChange={formik.handleChange}
           value={formik.values.email}
         />
