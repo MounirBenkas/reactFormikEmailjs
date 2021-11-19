@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "@material-ui/core";
+import { Button, Typography } from "@material-ui/core";
 import Icon from "@material-ui/core/Icon";
 import TextField from "@material-ui/core/TextField";
 import { useFormik } from "formik";
@@ -37,6 +37,9 @@ const Formulaire = () => {
   console.log(formik);
   return (
     <div className="flex">
+      <Typography variant="h4" className="title">
+        Formulaire de contact
+      </Typography>
       <form onSubmit={formik.handleSubmit}>
         <TextField
           label="name"

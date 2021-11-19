@@ -1,5 +1,8 @@
 import emailjs from "emailjs-com";
-
+/**
+ *
+ * @param {Object} value recupere les valeurs du formulaire
+ */
 const sendEmail = (value) => {
   const { REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, REACT_APP_USER_ID } =
     process.env;

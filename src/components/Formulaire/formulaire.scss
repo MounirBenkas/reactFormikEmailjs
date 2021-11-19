@@ -1,5 +1,6 @@
 .flex {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   form {
@@ -12,5 +13,8 @@
     button {
       margin-top: 10px;
     }
+  }
+  .title {
+    margin-bottom: 30px;
   }
 }
