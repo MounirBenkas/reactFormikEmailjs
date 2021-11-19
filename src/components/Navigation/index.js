@@ -5,7 +5,6 @@ import "./navigation.scss";
 const Navigation = () => {
   return (
     <div className="navBar">
-      <h3 className="logo_title">MBK</h3>
       <div className="menu">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/contact">Contact</NavLink>
